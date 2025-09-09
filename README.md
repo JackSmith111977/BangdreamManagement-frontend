@@ -2,7 +2,7 @@
 
 一个基于Vue 3 + Element Plus的乐队管理系统，用于管理乐队成员、员工、学院等信息。
 
-后端项目仓库：[https://github.com/JackSmith111977/BangdreamManagement-backend](https://github.com/JackSmith111977/BangdreamManagement-backend)
+后端项目仓库：[https://github.com/JackSmith111977/BangdreamManagement-backend](https://github.com/JackSmith111977/BangdreamManagement-backend)\
 前端项目仓库：[https://github.com/JackSmith111977/BangdreamManagement-frontend](https://github.com/JackSmith111977/BangdreamManagement-frontend)
 
 前后端项目通过Docker部署在了阿里云Ecs服务器中，项目效果展示：[kei.click](kei.click)
