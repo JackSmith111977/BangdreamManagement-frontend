@@ -61,7 +61,15 @@
 - Vite 构建工具
 
 ## 项目结构
-src/ ├── api/ # 后端API接口封装 ├── assets/ # 静态资源文件 ├── components/ # 公共组件 ├── router/ # 路由配置 ├── utils/ # 工具类 ├── views/ # 页面视图 ├── App.vue # 根组件 └── main.js # 入口文件
+src/ \ 
+  ├── api/ # 后端API接口封装 \
+  ├── assets/ # 静态资源文件 \
+  ├── components/ # 公共组件 \
+  ├── router/ # 路由配置 \
+  ├── utils/ # 工具类 \
+  ├── views/ # 页面视图 \
+  ├── App.vue # 根组件 \
+  └── main.js # 入口文件
 
 
 ## 主要特性
