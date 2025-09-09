@@ -7,6 +7,8 @@
 
 前后端项目通过Docker部署在了阿里云Ecs服务器中，项目效果展示：[kei.click](https://kei.click)
 
+本人博客地址：[keidesu.top](https://keidesu.top)
+
 ## 项目简介
 
 这是一个完整的乐队管理系统前端项目，采用Vue 3和Element Plus组件库构建。系统包含登录验证、权限控制、数据统计等功能模块，支持乐队、成员、员工、学院等信息的增删改查操作。
