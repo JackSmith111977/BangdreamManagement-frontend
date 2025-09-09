@@ -1,29 +1,112 @@
-# vue-tlias-management
+# Vue Tlias Management System
 
-This template should help get you started developing with Vue 3 in Vite.
+一个基于Vue 3 + Element Plus的乐队管理系统，用于管理乐队成员、员工、学院等信息。
 
-## Recommended IDE Setup
+## 项目简介
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+这是一个完整的乐队管理系统前端项目，采用Vue 3和Element Plus组件库构建。系统包含登录验证、权限控制、数据统计等功能模块，支持乐队、成员、员工、学院等信息的增删改查操作。
 
-## Customize configuration
+## 功能模块
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 1. 用户认证
+- 用户登录/登出
+- 登录状态保持
+- 权限验证拦截
 
-## Project Setup
+### 2. 乐队管理 (Clazz)
+- 乐队信息的增删改查
+- 乐队状态管理（成立中/活动中/已解散）
+- 乐队Leader指定
+- 活动时间设置
 
-```sh
+### 3. 学院管理 (Dept)
+- 学院信息维护
+- 学院列表展示
+
+### 4. 员工管理 (Emp)
+- 员工基本信息管理
+- 员工工作经历记录
+- 头像上传功能
+- 批量删除操作
+- 分页查询
+
+### 5. 木柜子管理 (Student)
+- 木柜子（乐队成员）信息管理
+- 学历信息维护
+- 违纪处理功能
+- 所属乐队分配
+
+### 6. 数据统计 (Report)
+- 员工职位统计图表
+- 员工性别比例统计
+- 乐队人数统计
+- 学历分布统计
+
+### 7. 日志管理 (Log)
+- 操作日志查看
+- 操作者信息展示
+
+## 技术栈
+
+- Vue 3 (Composition API)
+- Vue Router 4
+- Element Plus UI组件库
+- Axios HTTP客户端
+- ECharts 数据可视化
+- Vite 构建工具
+
+## 项目结构
+src/ ├── api/ # 后端API接口封装 ├── assets/ # 静态资源文件 ├── components/ # 公共组件 ├── router/ # 路由配置 ├── utils/ # 工具类 ├── views/ # 页面视图 ├── App.vue # 根组件 └── main.js # 入口文件
+
+
+## 主要特性
+
+1. **响应式设计**: 适配不同屏幕尺寸
+2. **组件化开发**: 高内聚低耦合的组件设计
+3. **数据可视化**: 使用ECharts展示统计图表
+4. **表单验证**: 完整的表单输入验证机制
+5. **图片上传**: 支持员工头像上传功能
+6. **分页查询**: 大数据量的分页处理
+7. **权限控制**: 基于Token的权限验证
+8. **国际化**: 支持中文语言包
+
+## 安装与运行
+
+```bash
+# 克隆项目
+git clone <项目地址>
+
+# 进入项目目录
+cd vue-tlias-management
+
+# 安装依赖
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 启动开发服务器
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# 构建生产环境
 npm run build
 ```
+## API接口
+项目通过/api前缀与后端服务通信，主要接口包括：
+
+- 登录认证: /login
+- 乐队管理: /clazzs
+- 学院管理: /depts
+- 员工管理: /emps
+- 木柜子管理: /students
+- 数据统计: /report
+- 日志管理: /log 
+
+## 开发规范
+- 使用Composition API进行组件开发
+- 采用Element Plus组件库
+- 统一使用中文界面和提示信息
+- 采用模块化API管理方式
+- 遵循Vue 3最佳实践
+## 注意事项
+- 项目需要配合后端服务使用
+- 图片上传功能需要配置文件服务器
+- 部分功能需要登录权限才能访问
+浏览器需支持ES6及以上版本
