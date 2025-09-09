@@ -63,7 +63,7 @@
 - Vite 构建工具
 
 ## 项目结构
-src/ \ 
+src/ <br>
   ├── api/ # 后端API接口封装 \
   ├── assets/ # 静态资源文件 \
   ├── components/ # 公共组件 \
